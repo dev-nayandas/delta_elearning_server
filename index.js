@@ -7,7 +7,7 @@ app.use(cors());
 const topics = require('./data/topics.json')
 
 app.get('/', (req,res)=>{
-    res.send('api running')
+    res.send('api running smoothyly')
 })
 
 app.get('/topic', (req,res)=>{
